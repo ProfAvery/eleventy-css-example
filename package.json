@@ -1,0 +1,19 @@
+{
+  "name": "eleventy-css-example",
+  "description": "Generates test.html with different styleshets",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "publish": "npx @11ty/eleventy --output=docs --pathprefix=eleventy-css-example --quiet"
+  },
+  "author": "Kenytt Avery",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProfAvery/eleventy-css-example.git"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "keywords": [],
+  "license": "UNLICENSED"
+}
