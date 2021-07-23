@@ -1,0 +1,14 @@
+---
+layout: base
+pages:
+    - red
+    - green
+    - blue
+---
+<ul>
+    {% for page in pages %}
+        <li>
+            <a href="{{ page | url }}">{{ page }}</a> page
+        </li>
+    {% endfor %}
+</ul>

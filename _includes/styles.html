@@ -1,0 +1,17 @@
+---
+pagination:
+    data: stylesheets
+    size: 1
+    alias: stylesheet
+stylesheets:
+    - red
+    - green
+    - blue
+permalink: "{{ stylesheet | slug }}/index.html"
+---
+<head>
+    <link rel="stylesheet" href="{{ '/styles/' | append: stylesheet | append: '.css' | url }}" />
+</head>
+<body>
+    {{ content }}
+</body>
